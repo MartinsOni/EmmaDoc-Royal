@@ -1,0 +1,206 @@
+*{
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    text-align: inherit;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+nav ul li{
+    display: inline;
+    list-style-type: decimal-leading-zero;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+nav ul li a{
+    color: white;
+    padding-top: 3rem;
+    display: inline-block;
+}
+    
+nav ul li a:hover{
+    color: blue;
+    border-radius: 5px;
+}
+main{
+    background-image: url(/image/ship.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    height: auto;
+    padding-top: 6rem;
+    padding-bottom: 13rem;
+      
+}
+main h3{
+    text-align: center;
+}
+
+main p{
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+address{
+    text-align: center;
+    color: red;
+}
+
+h1{
+    color: red;
+    padding-bottom: 0.1rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2{
+    color: rgb(26, 26, 150);
+    text-align: center;
+}
+p{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+}
+.petrolieum{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+}
+    /*Product*/
+span ul{
+    display: inline-block;
+    font-weight: 500;
+    
+}
+  
+  /* Clearfix (clear floats) */
+ .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Contact (appointment)*/
+form{
+    max-width: 40%;
+    margin-top: 1rem;
+    margin: 0;
+    text-align: center;
+    padding-left: 10rem;
+      
+}
+    /* legend*/
+legend{
+    padding: 0.2rem;
+    background-color: grey;
+    color: white;
+   
+}
+
+    /* Lable*/
+label{
+    display: inline-block;
+    padding: 0.1rem;
+    width: 20rem;
+    font-weight: lighter;
+    margin-left: 0.8rem;
+
+}
+
+fieldset{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+input{
+    width: 75%;
+    border: ridge;
+    border-radius: 0.8rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+    /* Style all font awesome icons */
+.fa{
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    border-radius: 0.8rem;
+    margin: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+  
+  /* Add a hover effect if you want */
+.fa:hover{
+    opacity: 0.7;
+}
+  
+  /* Facebook */
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+  
+  /* Twitter */
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+  /* instagram */
+.fa-instagram {
+    background: #28334d;
+    color: white;
+
+}
+  /* Linkedin */
+  .fa-linkedin {
+    background: #2160e9;
+    color: white;
+}
+
+  /* Button */
+button{
+      background-color: #28334d3b;
+      padding: 0.8rem;
+      width: 85%;
+      border-radius: 0.8rem;
+      margin: 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-size: cover;
+    background-color: gray;
+
+}
+
+
+
+
+
