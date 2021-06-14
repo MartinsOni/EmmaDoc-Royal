@@ -34,7 +34,7 @@ nav ul li a:hover{
     border-radius: 5px;
 }
 main{
-    background-image: url(/image/ship.jpg);
+    background-image: url(./image/ship.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
